@@ -5,9 +5,9 @@ var quizQs = [
         answer: "git checkout -b"
     },
     {
-        title: "An array is enclosed in: ",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "square brackets"
+        title: "In CSS, aboslute positioning is relative to ________: ",
+        choices: ["the original location", "the nearest sibling", "the viewfinder", "the nearest positioned ancestor"],
+        answer: "the nearest positioned ancestor"
     },
     {
         title: "Terminates the current loop and goes to the statement following the current statement: ",
