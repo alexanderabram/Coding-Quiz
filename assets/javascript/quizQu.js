@@ -15,9 +15,9 @@ var quizQs = [
         answer: "reset default CSS and restyle from scratch"
     },
     {
-        title: "The greater than/or equal operator is: ",
-        choices: [">>", "<=", "+=", ">="],
-        answer: ">="
+        title: "Bootstrap was originally developed with which social-media platform in mind?",
+        choices: ["Snapchat", "Instagram", "Face", "Twitter"],
+        answer: "Twitter"
     },
     {
         title: "This is a value that is passed back from one function to another: ",
