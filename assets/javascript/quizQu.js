@@ -20,8 +20,8 @@ var quizQs = [
         answer: "Twitter"
     },
     {
-        title: "Which of the following is not a JavaScript index type?: ",
-        choices: ["return", "string", "number", "boolean"],
+        title: "Which of the following is not a basic data type found in JavaScript: ",
+        choices: ["input", "string", "number", "boolean"],
         answer: "return"
     },
   ];
