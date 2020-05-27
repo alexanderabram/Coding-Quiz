@@ -1,8 +1,8 @@
 var quizQs = [
     {
-        title: "NaN stands for: ",
-        choices: ["Numbers-aNonymous", "Not-any-Nannies", "Not-a-Number", "No-absolutely-Not"],
-        answer: "Not-a-Number"
+        title: "What command is used to create a new GitHub branch using the terminal?: ",
+        choices: ["git check -b", "git checkout branch", "git checkout -b", "git new branch"],
+        answer: "git checkout -b"
     },
     {
         title: "An array is enclosed in: ",
