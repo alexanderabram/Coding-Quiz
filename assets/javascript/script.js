@@ -4,12 +4,6 @@ var currentIndex = 0;
 
 var score = 0;
 
-/////
-// functions
-/////
-
-
-//switches from introduction to questions, starts timer
 startQuiz.addEventListener("click", function(event){
     event.stopPropagation();
     startTimer();
