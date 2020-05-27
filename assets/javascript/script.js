@@ -1,17 +1,7 @@
-///// insight drawn from https://www.codemahal.com/video/javascript-quiz-tutorial/ tutorial /////
-
-
-/////
-// variables
-/////
-
 var startQuiz = document.querySelector("#startQuiz");
 var quizBtn = document.querySelectorAll(".quizBtn");
 var currentIndex = 0;
 
-
-//in that moment, I though, I can't base score off of the time left, becuase they could still
-//have the highest score and have answered zero questions correctly
 var score = 0;
 
 /////
