@@ -26,26 +26,19 @@ function showQs() {
 for (var i = 0; i < quizBtn.length; i++) {
     quizBtn[i].addEventListener("click", function userAnswer(event) {
         event.stopPropagation();
-        //when they click any quizBtn grab value out of that option  
-        
-        //if they got it right
+      
         if(event.currentTarget.innerText === quizQs[currentIndex].answer){
             score++;
             console.log(score);
-            //display "correct!" and continue 
             document.querySelector("#checkAns").innerHTML = "correct";
         } else {
-            //if they got it wrong display "wrong!"
-            // deduct 5 seconds from the clock and continue 
             document.querySelector("#checkAns").innerHTML = "wrong";
             secondsLeft = secondsLeft - 15;
         }
         console.log("Current Index before ++" + currentIndex);
-        //go to the next question
         currentIndex++;
         
         if (currentIndex < 5) {
-        //go back to the questions
         showQs();
         }
     });
