@@ -10,7 +10,7 @@ var quizQs = [
         answer: "the nearest positioned ancestor"
     },
     {
-        title: "Terminates the current loop and goes to the statement following the current statement: ",
+        title: "The 'Reset CSS' tool allows you to ______",
         choices: ["yeet", "break", "continue", "stop"],
         answer: "break"
     },
