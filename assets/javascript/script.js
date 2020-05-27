@@ -8,11 +8,8 @@ startQuiz.addEventListener("click", function(event){
     event.stopPropagation();
     startTimer();
     console.log("Current Index at startQuiz click" + currentIndex);
-    // BOX ONE set to display: none
     document.querySelector("#boxOne").style.display = "none"; 
-    // BOX TWO for quiz questions is set to display
     document.querySelector("#boxTwo").style.display = "block";
-    //show the questions on the screen
     showQs();
 });
 
@@ -25,10 +22,6 @@ function showQs() {
     document.querySelector("#chC").innerHTML = question.choices[2];
     document.querySelector("#chD").innerHTML = question.choices[3];
 }
-//listen for click on the buttons to determine the person's answer
-//somehow compare that to the correct answer
-//we don't have to store their answer, just check if it's correct
-//and act on that event  vvvvvv
 
 for (var i = 0; i < quizBtn.length; i++) {
     quizBtn[i].addEventListener("click", function userAnswer(event) {
