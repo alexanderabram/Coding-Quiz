@@ -11,7 +11,7 @@ var quizQs = [
     },
     {
         title: "The 'Reset CSS' tool allows you to ______",
-        choices: ["yeet", "break", "continue", "stop"],
+        choices: ["revert to the previously saved CSS file", "reset default CSS and restyle from scratch", "delete your current CSS file", "use an older version of CSS"],
         answer: "break"
     },
     {
