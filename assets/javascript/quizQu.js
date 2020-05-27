@@ -20,8 +20,8 @@ var quizQs = [
         answer: "Twitter"
     },
     {
-        title: "This is a value that is passed back from one function to another: ",
-        choices: ["return", "class", "functionClass", "for"],
+        title: "Which of the following is not a JavaScript index type?: ",
+        choices: ["return", "string", "number", "boolean"],
         answer: "return"
     },
   ];
