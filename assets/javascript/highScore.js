@@ -16,7 +16,6 @@ function printHighScore() {
   }
 }
 
-//sort the scores
 function scoresSorted(array, key) {
   return array.sort(function (a, b) {
     if (a.score < b.score) {
@@ -26,8 +25,7 @@ function scoresSorted(array, key) {
   });
 }
 
-// //button named clear high score defined
-// //function to clear high scores or 'localStorage' items
+
 clearHighScore.addEventListener("click", function () {
   localStorage.removeItem("highscores");
   window.location.reload();
