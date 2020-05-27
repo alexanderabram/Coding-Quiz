@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <nav> 
+        <!-- will hold in the upper left a link to the highscores
+            to the upper right a countdown timer for the quiz-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link active" href="highScore.html">Leaderboard</a>
+                    </div>
+                </div>
+                
+                <!-- score tally printed here-->
+                <div class="countdownBox">
+                    <p>Time Left: <span id="counterDisplay"></span></p>
+                </div>
+            </div>
+        </nav> 
+    </nav>
+    
+    <div class="quizWrap">
+        
+        <!-- need to prepopulate any divs we'll be printing to
+        as we need to add col info to them to make the 
+        page responsive-->
+        
+        <div id="quizBox" class="hoverBox">
+        <!-- BOX ONE is the instructions box that is turned off when start quiz button is pushed -->
+            
+            <div id="boxOne">
+                <h3>Coding Quiz</h3>
+                <p>Once you press start the quiz will begin!</p>
+                <p>You will have 90 seconds on the clock to answer 5 questions.</p>
+                <p>However, guess wrong and 15 seconds will be deducted from the clock!</p>
+                <p>Good luck!!!</p>
+                <!-- A <button id="startButton" > to start the quiz -->
+                <button id="startQuiz">Start Quiz!</button>
+            </div>
+            
+            <!-- BOX TWO is then turned on and prints the questions to the screen one by one-->
+            <div id="boxTwo" class="startHidden"> 
+                <h3 id="title"></h3>
+                <button id ="chA" class="quizBtn"></button>
+                <button id ="chB" class="quizBtn"></button>
+                <button id ="chC" class="quizBtn"></button>
+                <button id="chD" class="quizBtn"></button>
+                <p id="checkAns"></p>
+            </div>
+            
+            <div id="boxThree" class="startHidden">
+                <h3>Times up! Sorry, you lose!</h3>
+                <a href="index.html" class="button px-2 py-1">Go Back</a>
+                <!-- <button href="index.html">Go Back</button> -->
+            </div>
+
+            <!-- If all questions are answered in time BOX FOUR appears -->   
+            <div id="boxFour" class="startHidden">
+                <h3 id="endMsg"></h3>
+                <h4 id="yourScore"></h4>
+                <p>Enter your initials for the leaderboard:</p>
+                <form>
+                    <input type="text" id="userName">
+                    <!--button to submit-->
+                    <a href="highScore.html" id="submitNameScore" class="button px-2 py-1">Submit</a>
+                </form>
+            </div>
+
+        </div>
+            
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/javascript/timer.js"></script>
+    <script src="assets/javascript/quizQu.js"></script>
+    <script src="assets/javascript/script.js"></script>
+    
+</body>
+</html>
