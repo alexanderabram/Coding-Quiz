@@ -16,7 +16,7 @@ var quizQs = [
     },
     {
         title: "Bootstrap was originally developed with which social-media platform in mind?",
-        choices: ["Snapchat", "Instagram", "Face", "Twitter"],
+        choices: ["Snapchat", "Instagram", "Facebook", "Twitter"],
         answer: "Twitter"
     },
     {
