@@ -22,6 +22,6 @@ var quizQs = [
     {
         title: "Which of the following is not a basic data type found in JavaScript: ",
         choices: ["input", "string", "number", "boolean"],
-        answer: "return"
+        answer: "input"
     },
   ];
