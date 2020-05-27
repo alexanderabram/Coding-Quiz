@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leaderboard</title>
+</head>
+<body>
+
+        <nav> 
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">   
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mr-auto">
+                            <a class="nav-item nav-link active" href="highScore.html">Leaderboard</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav> 
+        </nav>
+            
+        <div class="quizWrap">
+            
+            <div id="quizBox" class="hoverBox">
+                <div class="row justify-content-center">
+                    <h3>Compare your high score!</h3>
+                    <br>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <ol id="highScorePrint"></ol>
+                </div>
+              
+                <div class="row justify-content-center">
+                    <a href="index.html" class="button px-2 py-1">Return to Start</a>
+                    <button id="clear">Clear High Scores</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="assets/javascript/highScore.js"></script>
+
+
+</body>
+</html>
