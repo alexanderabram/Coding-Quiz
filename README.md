@@ -5,6 +5,7 @@ Test your coding knowledge with this quick quiz.
 ## Installation
 
 Use the provided link to access the quiz.
+https://alexanderabram.github.io/Coding-Quiz/index.html
 
 ## Usage
 
