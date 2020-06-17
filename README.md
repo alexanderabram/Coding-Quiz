@@ -17,5 +17,7 @@ https://alexanderabram.github.io/Coding-Quiz/index.html
 
 4. The leaderboard can be accessed at any time by clicking the link in the top left corner.
 
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
